@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightpink;
+    background-color: black;
 }
 .greetings{
     font-size: 6rem;

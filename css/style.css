@@ -21,8 +21,8 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        color: #f7a1c4;
+        text-shadow: 0 0 12px #946075, 0 0 50px #946075, 0 0 100px #946075;
     }
     10%, 90%{
         color: #111;
@@ -71,7 +71,23 @@ body{
     margin: 0 auto;
 }
 
+/* CSS untuk menyembunyikan gambar awalnya */
+#myImage {
+    display: none;
+}
 
+#lanjutan {
+    display: none;
+}
+
+
+/* Custom font untuk tombol */
+#myButton {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
+    cursor: pointer;                  /* Mengubah kursor menjadi pointer saat dihover */
+}
 
 .description{
     font-size: 1.5rem;
